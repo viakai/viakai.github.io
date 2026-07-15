@@ -177,7 +177,7 @@ h1 span {
 
 .publication {
   display: grid;
-  grid-template-columns: 104px minmax(0, 1fr);
+  grid-template-columns: 132px minmax(0, 1fr);
   gap: 18px;
   padding: 18px 0;
   border-top: 1px solid rgba(217, 222, 216, 0.82);
@@ -189,8 +189,7 @@ h1 span {
 }
 
 .venue {
-  width: fit-content;
-  min-width: 86px;
+  width: 100%;
   height: fit-content;
   padding: 4px 8px;
   border: 1px solid rgba(31, 111, 120, 0.25);
@@ -200,7 +199,8 @@ h1 span {
   font-size: 13px;
   font-weight: 700;
   text-align: center;
-  white-space: nowrap;
+  line-height: 1.25;
+  white-space: normal;
 }
 
 .publication h3 {
